@@ -1,4 +1,21 @@
 * {
-  margin: auto;
-  padding: auto;
+  margin: auto 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "beer";
+  src: url("../fonts/beer\ money.ttf");
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "beer";
+  background-color: #d22a37;
+}
+
+.logo {
+  width: calc(100% / 10);
 }
